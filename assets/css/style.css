@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Menu */
+.header-top {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+.menu-main {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(66, 218, 66);
+    position: sticky;
+    top: 0; 
+    z-index: 1;
+}
+
+/* static position */
+.box-1 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: static;
+    /* margin: 50px 0; */
+}
+
+/* relative position */
+.box-2 {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    position: relative;
+    /* top: 50px; */
+    /* left: 50px; */
+}
+
+/* absolute postion */
+.box-3 {
+    width: 400px;
+    height: 400px;
+    background-color: green;
+    position: relative;
+}
+.box-4 {
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    /* z-index: 1 ; */
+}
+.box-5 {
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    position: absolute;
+    top: 10px;
+    /* z-index: 999; */
+}
+.content {
+    width: 100%;
+    height: 500px;
+    background-color: pink;
+}
+
+/* fixed position */
+.mess {
+    width: 150px;
+    height: 150px;
+    background-color: violet;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
